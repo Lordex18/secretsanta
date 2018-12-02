@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: url("fondo.jpg");
+}
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px 1px rgb(236, 0, 0);
+    position: relative;
+}
+.formulario__titulo{
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    margin-top: 0;
+    color: rgba(255, 0, 0, 1);
+}
+.formulario__input/*, .formulario__label*/, .formulario__submit{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 25px;
+}
+.formulario__input{
+    padding-left: 20px;
+    font-family: 'Mountains of Christmas', cursive;
+    letter-spacing: 3px;
+    color: rgba(6, 173, 15, 0.7);
+    background: transparent;
+    border: 1px solid rgba(20, 136, 5, 0.788);
+    margin-bottom: 20px;
+}
+.formulario__input:focus{
+    outline: 1px solid rgba(233, 0, 0, 0.808);
+}
+
+.submit{
+    background: #ea3434;
+    font-family: 'Mountains of Christmas', cursive;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #d02727;
+    border-radius: 25px;
+}

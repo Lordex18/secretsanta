@@ -1,0 +1,103 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+.content{
+    margin-top: 100px;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: .3s;
+    z-index: 1;
+}
+
+nav .logo
+{
+    height: 100px;
+    float: left;
+    transition: .3s;
+}
+
+nav.black{
+    background: rgb(0, 0, 0);
+    height: 100px;
+    padding: 0px 100px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.backimage{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+    background: url("fondo.jpg");
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    background: white;
+    padding: 0px 100px;
+    width: 100%;
+}
+
+.logot{
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 470px;
+    top: 300px;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 12px;
+    color: white;
+}
+
+.enter{
+    position: absolute;
+    top: 400px;
+    left: 615px;
+}
+
+.buton{
+    background: #ea3434;
+    border: 2px solid #d02727;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Mountains of Christmas', cursive;
+    margin-right: 20px;
+}

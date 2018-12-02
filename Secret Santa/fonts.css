@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'NoeDisplay Regular';
+    src: url('Fonts/NoeDisplay-Regular.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'NoeDisplay Medium';
+    src: url('Fonts/NoeDisplay-Medium.otf');
+}
+
+@font-face {
+    font-family: 'NoeDisplay500';
+    src: url('Fonts/NoeDisplay-Medium.woff');
+}
+
+@font-face {
+    font-family: 'Marat ExtraLight';
+    src: url('Fonts/MaratSans-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: 'Marat Medium';
+    src: url('Fonts/MaratSans-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Marat Regular';
+    src: url('Fonts/MaratSans-Regular.otf');
+}
